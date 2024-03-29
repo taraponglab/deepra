@@ -5,10 +5,12 @@ Division of Pharmaceutical Chemistry, Faculty of Pharmaceutical Sciences, Khon K
 
 ## This repository contains tutorial for using DeepRA
 
-Please find instruction in the DeepRA_tutorial.ipynb
+Please find instruction in the [DeepRA_tutorial.ipynb](https://github.com/taraponglab/deepra/blob/main/DeepRA_tutorial.ipynb)
 
 ## Version
-DeepRA version is 1.0
+DeepRA version 1.0
+
+Under peer review stages
 
 ## MIT Licence
 
