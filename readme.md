@@ -1,14 +1,16 @@
 # DeepRA: A Novel Deep Learning-Read-Across Framework and Its Application in Non-Sugar Sweeteners Mutagenicity Prediction
 Tarapong Srisongkram
+
 Division of Pharmaceutical Chemistry, Faculty of Pharmaceutical Sciences, Khon Kaen University, 40002 
 
-# This repository contains tutorial for using DeepRA
+## This repository contains tutorial for using DeepRA
 
-# Please find instruction in the DeepRA_tutorial.ipynb
+Please find instruction in the DeepRA_tutorial.ipynb
 
-# Version 1.0
+## Version
+DeepRA version is 1.0
 
-# MIT Licence
+## MIT Licence
 
 Copyright (c) [2024] [Dr.Tarapong Srisongram]
 
