@@ -1,11 +1,67 @@
 # DeepRA: A Novel Deep Learning-Read-Across Framework and Its Application in Non-Sugar Sweeteners Mutagenicity Prediction
-Tarapong Srisongkram
+![graphical abstract](Slide1.png)
+
+Tarapong Srisongkram(tarasri@kku.ac.th)
 
 Division of Pharmaceutical Chemistry, Faculty of Pharmaceutical Sciences, Khon Kaen University, 40002 
 
 ## This repository contains tutorial for using DeepRA
+DeepRA model was trained to classifiy mutagenicity properties of chemicals.
 
-Please find instruction in the [DeepRA_tutorial.ipynb](https://github.com/taraponglab/deepra/blob/main/DeepRA_tutorial.ipynb)
+Please find the full instruction in the [DeepRA_tutorial.ipynb](https://github.com/taraponglab/deepra/blob/main/DeepRA_tutorial.ipynb)
+
+### How to use this software
+It works best in Google colab via this link: [DeepRA_tutorial.ipynb](https://github.com/taraponglab/deepra/blob/main/DeepRA_tutorial.ipynb)
+
+Before using this software, please change the data in this file: [dulcin.csv](dulcin.csv) with you prediction molecule.
+
+#### Download necessary packages
+```
+!pip install rdkit
+!pip install mordred
+```
+#### Clone this and updated this repository as needed
+```
+!git clone https://github.com/taraponglab/deepra.git
+%cd deepra
+!git fetch
+!git pull
+```
+
+#### Check the file in your system
+```
+%ls
+```
+#### Download models
+```
+from joblib import load
+scaler_mord = load('mordred_scaler.joblib')
+model_mord  = load('CNN-Mordred.joblib')
+model_rdkit = load('CNN-RDKIT.joblib')
+model_ecfp  = load('CNN-ECFP.joblib')
+model_ad    = load('AD_nn.joblib')
+deepra      = load('DeepRA-Mordred.joblib')
+```
+
+#### Load test data (can change input via adjust dulcin file)
+```
+import pandas as pd
+df = pd.read_csv('dulcin.csv', index_col = 'Name')
+df
+```
+#### Then, run all the cells in the Google Colab
+You will get this result from the last cell
+```
+Name    DeepRA-Mordred	class	AD_status			
+dulcin	0.997393	    1	    within_AD
+```
+#### Interpretation
+**DeepRA-Mordred** = Possibility of mutagenicity (if DeepRA-Mordred < 0.5 then it is non-mutagen, if > 0.5 then it is mutagen)
+
+**class** = Mutagenicity class where 1 = mutagen and 0 = non-mutagen
+
+**AD_status** = Prediction is within or outside AD
+
 
 ## Version
 DeepRA version 1.0
