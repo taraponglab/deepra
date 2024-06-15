@@ -5,7 +5,7 @@ Tarapong Srisongkram(tarasri@kku.ac.th)
 
 Division of Pharmaceutical Chemistry, Faculty of Pharmaceutical Sciences, Khon Kaen University, THAILAND.
 
-[Paper published in Computers in Biology and Medicine](10.1016/j.compbiomed.2024.108731)
+[Paper published in Computers in Biology and Medicine](https://doi.org/10.1016/j.compbiomed.2024.108731)
 
 ## This repository contains tutorial for using DeepRA
 DeepRA model was trained to classifiy mutagenicity properties of chemicals.
@@ -69,7 +69,7 @@ dulcin	0.997393	    1	    within_AD
 DeepRA version 1.0
 
 ## Cite
-Srisongkram T. DeepRA: A novel deep learning-read-across framework and its application in non-sugar sweeteners mutagenicity prediction. Comput Biol Med. 2024 Jun 12;178:108731. doi: [10.1016/j.compbiomed.2024.108731](10.1016/j.compbiomed.2024.108731).
+Srisongkram T. DeepRA: A novel deep learning-read-across framework and its application in non-sugar sweeteners mutagenicity prediction. Comput Biol Med. 2024 Jun 12;178:108731. doi: [10.1016/j.compbiomed.2024.108731](https://doi.org/10.1016/j.compbiomed.2024.108731).
 
 ## MIT Licence
 
