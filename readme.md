@@ -5,7 +5,7 @@ Tarapong Srisongkram(tarasri@kku.ac.th)
 
 Division of Pharmaceutical Chemistry, Faculty of Pharmaceutical Sciences, Khon Kaen University, THAILAND.
 
-[Paper published in Computers in Biology and Medicine](https://doi.org/10.1016/j.compbiomed.2024.108731)
+[Read full paper published in Computers in Biology and Medicine](Srisongkram-2024-DeepRA-CIBM.pdf)
 
 ## This repository contains tutorial for using DeepRA
 DeepRA model was trained to classifiy mutagenicity properties of chemicals.
